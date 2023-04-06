@@ -14,6 +14,10 @@
     position: relative;
     padding: .6rem;
 }
+.principal_summary img {
+    margin-top: .2rem;
+    height: 1rem;
+}
 
 .principal_summary .summary{
     background-color: antiquewhite;
@@ -25,6 +29,7 @@
 
 .principal_summary .summary{
     display: flex;
+    border-radius: .5rem;
 }
 
 .principal_summary .summary_names{
@@ -71,4 +76,15 @@
 .porcentagem{
     font-weight: 700;
     color: hsl(224, 30%, 27%);
+}
+
+footer .btn{
+    color: white;
+    display: block;
+    margin: auto;
+    padding: .7rem;
+    width: 15rem;
+    border: 1px solid hsl(244, 30%, 27%);
+    background-color: hsl(244, 30%, 27%);
+    border-radius: 5rem;
 }
