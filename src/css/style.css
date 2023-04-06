@@ -40,15 +40,15 @@ header {
 .section.result .score {
     position: relative;
     text-align: center;
-    height: 10px;
 }
+
 .score.section{
     position: relative;
     padding: 0 2rem 0 2rem;
 }
 
 .section.result .score h1 {
-    margin-top: 1.5rem;
+    margin-top: .7rem;
     color: aliceblue;
     font-family: 'Hanken Grotesk', sans-serif;
 }
