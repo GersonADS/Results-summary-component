@@ -7,17 +7,68 @@
 
 .section.summary header {
     padding: 1rem;
-
 }
 
 .principal_summary{
+    color: #9b9b9a;
     position: relative;
     padding: .6rem;
 }
 
 .principal_summary .summary{
     background-color: antiquewhite;
+    padding: .5rem;
     min-width: 100%;
     height: 2.5rem;
     margin-bottom: 1rem;
+}
+
+.principal_summary .summary{
+    display: flex;
+}
+
+.principal_summary .summary_names{
+    margin-left: .5rem;
+    margin-right: 5.5rem;
+}
+
+.summary.reaction{
+    background-color:hsla(0, 100%, 67%, 0.068);
+}
+.summary_names.reaction{
+    color:hsl(0, 100%, 67%) ;
+}
+
+
+.summary.memory{
+    background-color: hsla(39, 100%, 56%, 0.062);
+}
+.summary_names.memory{
+    color:hsl(39, 100%, 56%) ;
+}
+
+
+.summary.verbal{
+    background-color:hsla(166, 100%, 37%, 0.041) ;
+}
+.summary_names.verbal{
+    color:hsl(166, 100%, 37%);
+}
+
+.summary.visual{
+    background-color:hsla(234, 85%, 45%, 0.048);
+}
+.summary_names.visual{
+    color:hsl(234, 85%, 45%);
+}
+
+
+.principal_summary p {
+    position: absolute;
+    right: 1.3rem;
+}
+
+.porcentagem{
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
 }
