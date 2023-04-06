@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
 
 .section.principal{
+    box-shadow: 1px 1px 10px grey;
     color:hsl(241,100%,89%);
     display: flex;
     width: 35rem;
     height: 22.3rem;
+    border-radius: 5%;
 }
 
 .section.result{
