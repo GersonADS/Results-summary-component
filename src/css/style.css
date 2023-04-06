@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
 
 .section.principal{
-    color: white;
-    font-family: 'Hanken Grotesk', sans-serif;
+    color:hsl(241,100%,89%);
     display: flex;
     width: 35rem;
     height: 22.3rem;
@@ -21,25 +20,30 @@ header {
 }
 
 .section.result .points{
-    text-align: center;
-    padding: 2rem;
-    border-radius: 100%;
     margin: auto;
-    background-image: linear-gradient(180deg,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     width: 11rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 100%;
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-image: linear-gradient(180deg,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 
 }
 .section.result .points h1 {
+    color: aliceblue;
     font-size: 4rem;
 }
 .section.result .score h1 {
+    color: aliceblue;
     padding-bottom:.5rem ;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .section.result .score {
     text-align: center;
     padding: 1.5rem;
 }
+
 .section.summary{
     min-height: 100%;
     width: 50%;
