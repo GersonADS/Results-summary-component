@@ -11,6 +11,7 @@
     min-height: 100%;
     width: 50%;
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 5%;
 }
 
 .section.result 
@@ -40,8 +41,13 @@ header {
 }
 
 .section.result .score {
+    padding: 1.8rem;
+    position: relative;
     text-align: center;
-    padding: 1.5rem;
+    height: 10px;
+}
+.section.result .score p {
+    padding: .5rem;
 }
 
 .section.summary{
