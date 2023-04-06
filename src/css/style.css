@@ -44,8 +44,7 @@ header {
 }
 .score.section{
     position: relative;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 0 2rem 0 2rem;
 }
 
 .section.result .score h1 {

@@ -9,7 +9,10 @@
 }
 
 .section.summary header {
-    padding: 1rem;
+    padding: 1rem 0 0 1rem;
+}
+.section.summary header h1 {
+    line-height: 2.5rem;
 }
 
 .principal_summary{
