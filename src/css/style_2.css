@@ -1,8 +1,11 @@
 .section.summary{
-    font-family: 'Hanken Grotesk', sans-serif;
+    width: 50%;
+    display: block;
+    min-height: 100%;
     border-radius: 5%;
     background-color:white;
     color: hsl(224,30%,27%);
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .section.summary header {
@@ -77,10 +80,12 @@
     font-weight: 700;
     color: hsl(224, 30%, 27%);
 }
-
+.summary footer{
+    text-align: center;
+    line-height: 3rem;
+}
 footer .btn{
     color: white;
-    display: block;
     margin: auto;
     padding: .7rem;
     width: 15rem;
