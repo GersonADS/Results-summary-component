@@ -1,0 +1,46 @@
+@media (max-width:375px){
+
+    body{
+        overflow: hidden;
+    }
+
+    .section.principal{
+        display:block;
+        position: relative;
+        height: 0;
+    }
+
+    .section.result {
+        border-radius: 0 0 10% 10%;
+        font-size: .8rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .section.result .points{
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .section.result .points h1{
+        font-size: 2.5rem;
+    }
+
+    .section.section.result .score h1{
+        font-size: 1.5rem;
+    }
+
+    .section.result .score{
+        padding: 0 1.7rem 0 1.7rem;
+    }
+    
+    .section.result 
+    ,.section.summary{
+        width: 60%;
+    }
+
+    .footer_summary{
+        padding: 1rem;
+    }
+
+
+}
